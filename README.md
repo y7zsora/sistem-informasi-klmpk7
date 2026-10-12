@@ -19,11 +19,6 @@ Repository ini berisi dokumentasi tugas mata kuliah **Sistem Informasi** untuk s
 - [Cara Kerja Sistem](#cara-kerja-sistem)
 - [ERD (Entity Relationship Diagram)](#erd-entity-relationship-diagram)
 - [Identitas Kelompok](#identitas-kelompok)
-  - [Ranggah Rajasa Rudiwangsa](#1-ranggah-rajasa-rudiwangsa)
-  - [Muhammad Izzat Bashay](#2-muhammad-izzat-bashay)
-  - [Alfathar Farrelinoputra](#3-alfathar-farrelinoputra)
-  - [I Gusti Rai Panudrakarna](#4-i-gusti-rai-panudrakarna)
-
 ---
 
 ## Tujuan Sistem
@@ -44,15 +39,13 @@ Sistem Informasi Pelayanan Klinik bertujuan untuk:
 .
 ├── README.md
 ├── Dokumen-Tugas/
-├── ERD/
-└── Laporan/
+└── ERD/
 ```
 
 | Folder | Isi |
 |---|---|
 | `Dokumen-Tugas/` | Dokumen tugas kelompok (soal dan jawaban dalam format PDF) |
 | `ERD/` | Gambar dan berkas diagram ERD Sistem Informasi Pelayanan Klinik |
-| `Laporan/` | Laporan akhir dan screenshot praktik penggunaan GitHub |
 
 ---
 
@@ -99,44 +92,44 @@ erDiagram
     OBAT ||--|| TRANSAKSI : "melakukan"
 
     PASIEN {
-        int id_pasien PK
-        string nama_pasien PK
-        date tanggal_lahir
-        string jenis_kelamin
-        string alamat
-        string no_telepon
+        id_pasien PK
+        nama_pasien PK
+        tanggal_lahir
+        jenis_kelamin
+        alamat
+        no_telepon
     }
 
     DOKTER {
-        int id_dokter PK
-        string nama_dokter PK
-        string spesialisasi
-        string no_telepon
+        id_dokter PK
+        nama_dokter PK
+        spesialisasi
+        no_telepon
     }
 
     REKAM_MEDIS {
-        int id_rekam_medis PK
-        int id_pasien FK
-        int id_dokter FK
-        string diagnosa
-        string keluhan
-        date tanggal_periksa
+        id_rekam_medis PK
+        id_pasien FK
+        id_dokter FK
+        diagnosa
+        keluhan
+        tanggal_periksa
     }
 
     OBAT {
-        int id_obat PK
-        string nama_obat PK
-        int id_pasien FK
-        int stok
-        string kategori
+        id_obat PK
+        nama_obat PK
+        id_pasien FK
+        stok
+        kategori
     }
 
     TRANSAKSI {
-        int id_transaksi PK
-        string nama_obat FK
-        string nama_pasien FK
-        string nama_dokter FK
-        decimal harga
+        id_transaksi PK
+        nama_obat FK
+        nama_pasien FK
+        nama_dokter FK
+        harga
     }
 ```
 
@@ -159,7 +152,7 @@ Versi gambar ERD juga tersedia di folder [`ERD/`](./ERD).
 
 - **NIM:** 2615354022
 - **Program Studi / Kelas:** 1 B TRPL
-- **GitHub:** [@username](https://github.com/ranggahrajasa)
+- **GitHub:** [@ranggahrajasa](https://github.com/ranggahrajasa)
 
 [Kembali ke Navigasi](#navigasi)
 
@@ -167,7 +160,7 @@ Versi gambar ERD juga tersedia di folder [`ERD/`](./ERD).
 
 - **NIM:** 2615354006
 - **Program Studi / Kelas:** 1 B TRPL
-- **GitHub:** [@username](https://github.com/muhmdbashay-lang)
+- **GitHub:** [@muhmdbashay-lang](https://github.com/muhmdbashay-lang)
 
 [Kembali ke Navigasi](#navigasi)
 
@@ -175,7 +168,7 @@ Versi gambar ERD juga tersedia di folder [`ERD/`](./ERD).
 
 - **NIM:** 2615354050
 - **Program Studi / Kelas:** 1 B TRPL
-- **GitHub:** [@username](https://github.com/y7zsora)
+- **GitHub:** [@y7zsora](https://github.com/y7zsora)
 
 [Kembali ke Navigasi](#navigasi)
 
@@ -183,7 +176,7 @@ Versi gambar ERD juga tersedia di folder [`ERD/`](./ERD).
 
 - **NIM:** 2615354034
 - **Program Studi / Kelas:** 1 B TRPL
-- **GitHub:** [@username](https://github.com/raipaundraa-ai)
+- **GitHub:** [@raipaundraa-ai](https://github.com/raipaundraa-ai)
 
 [Kembali ke Navigasi](#navigasi)
 
