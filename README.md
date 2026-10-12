@@ -91,45 +91,45 @@ erDiagram
     REKAM_MEDIS }o--o{ OBAT : "buat"
     OBAT ||--|| TRANSAKSI : "melakukan"
 
-    PASIEN {
-        id_pasien PK
-        nama_pasien PK
-        tanggal_lahir
-        jenis_kelamin
-        alamat
-        no_telepon
+PASIEN {
+        int id_pasien PK
+        string nama_pasien PK
+        date tanggal_lahir
+        string jenis_kelamin
+        string alamat
+        string no_telepon
     }
 
     DOKTER {
-        id_dokter PK
-        nama_dokter PK
-        spesialisasi
-        no_telepon
+        int id_dokter PK
+        string nama_dokter PK
+        string spesialisasi
+        string no_telepon
     }
 
     REKAM_MEDIS {
-        id_rekam_medis PK
-        id_pasien FK
-        id_dokter FK
-        diagnosa
-        keluhan
-        tanggal_periksa
+        int id_rekam_medis PK
+        int id_pasien FK
+        int id_dokter FK
+        string diagnosa
+        string keluhan
+        date tanggal_periksa
     }
 
     OBAT {
-        id_obat PK
-        nama_obat PK
-        id_pasien FK
-        stok
-        kategori
+        int id_obat PK
+        string nama_obat PK
+        int id_pasien FK
+        int stok
+        string kategori
     }
 
     TRANSAKSI {
-        id_transaksi PK
-        nama_obat FK
-        nama_pasien FK
-        nama_dokter FK
-        harga
+        int id_transaksi PK
+        string nama_obat FK
+        string nama_pasien FK
+        string nama_dokter FK
+        decimal harga
     }
 ```
 
