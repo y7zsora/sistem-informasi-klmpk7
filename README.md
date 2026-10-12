@@ -129,7 +129,7 @@ PASIEN {
         string nama_obat FK
         string nama_pasien FK
         string nama_dokter FK
-        decimal harga
+        real harga
     }
 ```
 
