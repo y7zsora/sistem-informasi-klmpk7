@@ -44,7 +44,7 @@ Sistem Informasi Pelayanan Klinik bertujuan untuk:
 
 | Folder | Isi |
 |---|---|
-| `Dokumentasi/` | Dokumentasi dari Sistem Informasi Pelayanan Klinik (Berdasarkan tugas yang telah diberikan) |
+| `Dokumentasi/` | Dokumentasi dari Sistem Informasi Pelayanan Klinik (Berdasarkan tugas yang telah diberikan sebelumnya ) |
 | `ERD/` | Gambar dan berkas diagram ERD Sistem Informasi Pelayanan Klinik |
 
 ---
