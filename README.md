@@ -96,15 +96,12 @@ PASIEN {
         string nama_pasien PK
         date tanggal_lahir
         string jenis_kelamin
-        string alamat
-        string no_telepon
     }
 
     DOKTER {
         int id_dokter PK
         string nama_dokter PK
         string spesialisasi
-        string no_telepon
     }
 
     REKAM_MEDIS {
