@@ -38,13 +38,13 @@ Sistem Informasi Pelayanan Klinik bertujuan untuk:
 ```
 .
 ├── README.md
-├── Dokumen-Tugas/
+├── Dokumentasi/
 └── ERD/
 ```
 
 | Folder | Isi |
 |---|---|
-| `Dokumen-Tugas/` | Dokumen tugas kelompok (soal dan jawaban dalam format PDF) |
+| `Dokumentasi/` | Dokumentasi dari Sistem Informasi Pelayanan Klinik (Berdasarkan tugas yang telah diberikan) |
 | `ERD/` | Gambar dan berkas diagram ERD Sistem Informasi Pelayanan Klinik |
 
 ---
