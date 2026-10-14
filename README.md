@@ -130,7 +130,7 @@ PASIEN {
     }
 ```
 ![Gambar ERD](erd.jpeg)
-Versi gambar ERD juga tersedia di [file ERD](erd.jpeg).
+Versi gambar ERD juga tersedia di folder [ERD](./ERD).
 
 ---
 
