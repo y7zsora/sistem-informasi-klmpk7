@@ -1,6 +1,6 @@
 # Dokumentasi Sistem Informasi Pelayanan Klinik
 
-Repository ini berisi dokumentasi tugas mata kuliah **Sistem Informasi** untuk studi kasus **Sistem Informasi Pelayanan Klinik**, yang dikelola menggunakan GitHub sebagai layanan cloud untuk penyimpanan, kolaborasi, dan version control dokumen.
+Repository ini berisi dokumentasi tugas mata kuliah **Sistem Informasi** untuk studi kasus **Sistem Informasi Pelayanan Klinik**, yang dikelola menggunakan GitHub sebagai layanan cloud untuk penyimpanan, kolaborasi, dan version control dokumen. Repositori ini diperbarui secara berkala untuk menyesuaikan perkembangan pengerjaan tugas kelompok.
 
 | | |
 |---|---|
