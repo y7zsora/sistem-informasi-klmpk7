@@ -129,8 +129,7 @@ PASIEN {
         real harga
     }
 ```
-![Gambar ERD](erd.jpeg)
-Versi gambar ERD juga tersedia di [file ERD](erd.jpeg).
+Versi gambar ERD juga tersedia di [ERD](ERD/).
 
 ---
 
